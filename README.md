@@ -113,20 +113,48 @@ The previous code is what we use for the detection process at the end. Inside th
 
 In the case of analyzing the videos: it is considered the same image, but the counter is used in the end, because every second the cat can make a different movement. It is determined what appeared the most and we depend on it, so that if there is an error, it is controlled.
 
-For the model training we used YOLO 5, and this is a pretrained model, which consists of a lot of layers, but we only change the weight according to the data that we enter for it, and through this model we were able to get the results we want (determining the cat’s condition depending on its body language). While training the model we got some graphs. Some of them as shown in figure (4). These graphs represent loss graphs or the error on the training dataset.
+For the model training we used YOLO v5, and this is a pretrained model, which consists of a lot of layers, but we only change the weight according to the data that we enter for it, and through this model we were able to get the results we want (determining the cat’s condition depending on its body language). While training the model we got some graphs. Some of them as shown in figure (4). These graphs represent loss graphs or the error on the training dataset.
 
 ![image](https://user-images.githubusercontent.com/101527083/222720889-33e810ac-1462-4856-b9fe-66c682e840a9.png)
 
 To create the program, the Pygame library was used. It is a library used to create games, but we used it to make a good and enjoyable look for users, as if it were a game. The program is very simple. It says the status of the cat, and then quits. If the user wants to try again, he should ring again.
 
 ## User Interfaces 
+
+### Game Interface
 It is necessary for any machine-learning model to handle a familiar connection between the user and the code output. Therefore, the following image illustrates our funny user interface for cat owners:
+
+![image](https://user-images.githubusercontent.com/101527083/222721603-7b093dab-f1be-445c-ba33-9468b62431e8.png)
+
 
 ![image](https://user-images.githubusercontent.com/101527083/222721224-7bef6efd-8d27-496f-847f-d926c7722714.png)
 
 
+### Flutter application
 
-###
+To be more professional and adding mor services like the following
+* sign up to the application and get notifications for the cat behaviors
+* getting tips for regular grooming 
+* access the the user's (cat owner) location to inform him the nearest veterinary hospital to treat the cat if it is detected as sick
+
+## Weakness points:
+* The cat changes its behavior for each second and our detected cases are inflexible 
+* The cat body language is more complicated than that 
+* The goal of animal welfare is extented tomore animals in farms that their behaviors can affect on the economics (cows, buffalo ...etc)
+
+## Future plans 
+* We are now building a modern architectures such as a transformers, LSTM, or attection model within `CNN` (convolutional neural network) to be more accurate for the cat body language 
+* We are searching for a trusted reference for the biological data of the rest of animals regarding their body languages and behaviors
+
+## Credits
+This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy. 
+This project is supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology. 
+
+## Awards and certifications
+* The project recieved the `Third Prize` in OpenCV AI competition 2022 
+* The project participates in `Google Challenge Solution Global Contest` 
+* The project will be submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt. 
+
 
 
 
