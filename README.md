@@ -149,14 +149,23 @@ To be more professional and adding mor services like the following
 * We are now building a modern architectures such as a transformers, LSTM, or attection model within `CNN` (convolutional neural network) to be more accurate for the cat body language 
 * We are searching for a trusted reference for the biological data of the rest of animals regarding their body languages and behaviors
 
+##References 
+* Cats Protections Organization in UK (Cat body language - cat behaviour help & advice)
+* Zhao, Z. (2020). Using Notational Systems to Represent the Relationship of Cats’ Postures and Facial Expression (Doctoral dissertation, Northeastern University)
+* World Small Animal Veterinary Association Book
+* Aggression in cats. ASPCA
+* Zedespook, Kbarni, Berak, Crackwitz, & StringTheory. (2021, April 9). `How can I tell the angle from a horizontal line? OpenCV` 
+* Eagan, B., Eagan, B., & Protopopova, A. (2022). BeRSTID: A Behaviour Real-Time Spatial Tracking Identification System
+* Liu, C., Tao, Y., Liang, J., Li, K., & Chen, Y. (2018, December). Object detection based on YOLO network. In 2018 IEEE 4th Information Technology and Mechatronics Engineering Conference (ITOEC) (pp. 799-803). IEEE
+
 ## Credits
-* This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy. 
-* This project is supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology. 
+* This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy, September 2022.
+* This project is supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology, December 2022.
 
 ## Awards and certifications
 * The project recieved the `Third Prize` in OpenCV AI competition 2022 
-* The project participates in `Google Challenge Solution Global Contest` 
-* The project will be submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt. 
+* The project participates in `Google Challenge Solution Global Contest 2023` (In progress)
+* The project will be submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt (In progress)
 
 
 
