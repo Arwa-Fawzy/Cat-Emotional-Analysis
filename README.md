@@ -15,6 +15,7 @@ The present work selects cats’ behaviors due to the lack of biological investi
 
 ## Research Background 
 During the search, we did not find any model that cared about this matter before, except for some research on insects, but caring for our pets and making animal behavior analysis is a rare matter in this technological crowd, although it is important for all of us. so, we started collecting data from cited platforms that gives the correct biological data about animals then we started making out unique model to help making a start point in this field as addition to the community of AI.
+
 ![image](https://user-images.githubusercontent.com/101527083/222715960-27dd9270-b058-41b5-9d69-bda6dff192f0.png)
 
 The beginning before we started coding was to collect all 
@@ -23,7 +24,6 @@ compile it for use in the code, as in figure (1) and the data we
 used are shown in table (1), (2) and (3)
 
 ![image](https://user-images.githubusercontent.com/101527083/222716074-96c41735-96fb-4c22-8e7e-588cca6c6792.png)
-
 #### Cat Tail 
 ![image](https://user-images.githubusercontent.com/101527083/222716186-4602718a-b052-4f60-92df-2887e72132e7.png)
 
@@ -33,10 +33,10 @@ used are shown in table (1), (2) and (3)
 To build this model, we went through several stages, which will be detailed in the following lines.
 ### Cat detection 
 The first step in the implementation was to identify the cat or cats in the picture. This was to avoid the detection of any other objects as cats — the human eyes are like the cat’s eyes in the computer vision consideration. To build the recognition code first, some libraries were imported such as:
-* Torch: Library that starts making a deep neural network to make detection faster and more accurate
-* Matplotlib: This library helps in making 2d graphs and visualization. We used it for visualization, so that when we start zooming in or in case we have a low-quality image, the detection won’t be affected.
-* NumPy: This library is based on linear algebra, so it always takes data and converts it into a matrix. It is used in data manipulation, and through it we can convert images to grids to facilitate the detection of a specific part.
-* OpenCV (cv2): It contains pre-trained data for various objects, including animals, plants, body parts, and more. So, we started working with the part that we want to make the process easier for the model training.
+* `Torch` : Library that starts making a deep neural network to make detection faster and more accurate
+* `Matplotlib` : This library helps in making 2d graphs and visualization. We used it for visualization, so that when we start zooming in or in case we have a low-quality image, the detection won’t be affected.
+* `NumPy` : This library is based on linear algebra, so it always takes data and converts it into a matrix. It is used in data manipulation, and through it we can convert images to grids to facilitate the detection of a specific part.
+* `OpenCV (cv2)` : It contains pre-trained data for various objects, including animals, plants, body parts, and more. So, we started working with the part that we want to make the process easier for the model training.
 
 ![image](https://user-images.githubusercontent.com/101527083/222717150-48bc4002-f5df-4187-ab92-9dce330ad277.png)
 
@@ -59,8 +59,8 @@ Then how many cats are in the picture will be printed in the terminal via the fo
 
 Finally, the cat image is displayed and plotted by placing it on the x and y axis, and specific points are determined after that the cat itself begins to be determined as shown in figure (2).
 
-![image](https://user-images.githubusercontent.com/101527083/222717847-945ef053-8530-40da-bd8b-f9e580f74bc9.png)
-![image](https://user-images.githubusercontent.com/101527083/222717800-436d8d3b-c4ed-4024-a0c7-75f1820c9e10.png)
+![image](https://user-images.githubusercontent.com/101527083/222717847-945ef053-8530-40da-bd8b-f9e580f74bc9.png) ![image](https://user-images.githubusercontent.com/101527083/222717800-436d8d3b-c4ed-4024-a0c7-75f1820c9e10.png)
+
 
 
 
