@@ -138,6 +138,8 @@ To be more professional and adding mor services like the following
 * getting tips for regular grooming 
 * access the the user's (cat owner) location to inform him the nearest veterinary hospital to treat the cat if it is detected as sick
 
+![app](https://user-images.githubusercontent.com/101527083/222726488-9a665622-fb12-4789-87f8-b31f7efb92a9.jpeg)
+
 ## Weakness points:
 * The cat changes its behavior for each second and our detected cases are inflexible 
 * The cat body language is more complicated than that 
