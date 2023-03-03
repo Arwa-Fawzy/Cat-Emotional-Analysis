@@ -57,9 +57,81 @@ Then how many cats are in the picture will be printed in the terminal via the fo
 
 ![image](https://user-images.githubusercontent.com/101527083/222717667-f5263e0b-b3b1-4050-9485-53bb76e3df1d.png)
 
-Finally, the cat image is displayed and plotted by placing it on the x and y axis, and specific points are determined after that the cat itself begins to be determined as shown in figure (2).
+Finally, the cat image is displayed. 
 
-![image](https://user-images.githubusercontent.com/101527083/222717847-945ef053-8530-40da-bd8b-f9e580f74bc9.png) ![image](https://user-images.githubusercontent.com/101527083/222717800-436d8d3b-c4ed-4024-a0c7-75f1820c9e10.png)
+![image](https://user-images.githubusercontent.com/101527083/222717800-436d8d3b-c4ed-4024-a0c7-75f1820c9e10.png)
+
+It is  plotted by placing it on the x and y axis, and specific points are determined after that the cat itself begins to be determined as shown in figure (2).
+
+![image](https://user-images.githubusercontent.com/101527083/222717847-945ef053-8530-40da-bd8b-f9e580f74bc9.png) 
+
+### YOLO v5 
+First, we identified the parts of the cat's body that will be visible to determine the change in them and thus give the most accurate information about the cat's condition. Our dependence in the code was on 3 parts, the Eyes, the Tail, and the Mouth as shown in the figure: 
+
+#### The Eyes part
+##### It contains three parts:
+The first part is responsible for capturing the `eyes` and making an analysis of them, such as making a contour around them and calculating the ratio between white and black, and on this basis, we will determine whether the eye is wide open or not.
+
+![image](https://user-images.githubusercontent.com/101527083/222718986-251b064e-2034-47b4-ad48-f93189dfbeaa.png)
+
+* The second part is responsible for compilation, especially in video situations, because every second something different will be captured, so every second it calculates the first part, then in the end it counts them and gives the most visible thing from the second function as a result. 
+ 
+#### The Mouth part
+The mouth part: the code is simple, it tells us what appeared in the first function, according to the end of the Yolo need to catch it, the second function: it is also considered as a counter
+##### It consists of two functions:
+* Mouth detection:
+This is what we use to determine the case in relation to the frame or the 
+image, in a true sense, if the image is caught with a closed mouth, it tells you 
+what the case was and so on.
+* Mouth behavior:
+This is considered a counter, so that in each frame it says what appeared and sees the most appeared thing and tells what expresses the condition of the cat
+
+#### The tail part:
+Divided into four parts:
+* The first part that is the detection of the tail: it is responsible for making a contour and defining the maximum from each point, right, left, above and below, and we see which is greater in length or width, while the length is greater, so this means that the tail is straight to the top, almost standing, so we depend on the point above and below, if the width It is the largest, this means that the tail is on the x axis, so we depend on the right and the left.
+* The gradient function which concerned with the slope. 
+* The third function is responsible for the calculations and gives us the result
+* The last function is like the second function in the eyes, which do you think is the most visible thing, especially if it is in a video.
+
+In more details, Yolo makes a bounding box for the cat's tail, and the tail detection code works on the box that contains the tail. The main idea is to make a contour for the tail, but before that we set a threshold and after that we start to make the contour. We make the contour because we want to define the points on the tail that we will use to indicate the state of movement of the tail. Whichever is greater, the difference between the left and right points or the top and bottom points is the largest. And according to which of them is greater, the shape of the tale is changed vertically or horizontally.
+
+Then we measure the angle with OpenCV where we have the coordinates of the points on the tail and the length between the points so that the angle is determined and converted to degrees. The states of the tail are indicated so the meaning is known according to these accounts
+
+![image](https://user-images.githubusercontent.com/101527083/222719961-58873141-1221-4bec-9251-9fd3d7c04d63.png)
+
+###### These steps are all shown in figure (3) from a to d.
+
+![image](https://user-images.githubusercontent.com/101527083/222720150-af5abe33-60d6-4f2f-934d-b88378fbfe3b.png)
+
+The next step was to collect as many pictures of cats with different qualities as possible to train the model. Then we used the Labelimg program to select the parts using boxes to be inserted into the model. 
+
+In `image analysis`, we collect everything from what was mentioned before, with a function called Splitter, and it divides them into 8 parts in a list in order to increase the organization. Then the second main function detects everything, and, in the end, it gives the case, and at the same time it saves pictures of what was detected and how we analyzed them to show them in the program.
+
+![image](https://user-images.githubusercontent.com/101527083/222720483-29f65b7c-cf73-473e-b0df-83d11a622b14.png)
+
+The previous code is what we use for the detection process at the end. Inside this function, we call other functions, all of them for the same purpose, which is image detection. The explanation of all the functions is written in the comments in the code.
+
+In the case of analyzing the videos: it is considered the same image, but the counter is used in the end, because every second the cat can make a different movement. It is determined what appeared the most and we depend on it, so that if there is an error, it is controlled.
+
+For the model training we used YOLO 5, and this is a pretrained model, which consists of a lot of layers, but we only change the weight according to the data that we enter for it, and through this model we were able to get the results we want (determining the cat’s condition depending on its body language). While training the model we got some graphs. Some of them as shown in figure (4). These graphs represent loss graphs or the error on the training dataset.
+
+![image](https://user-images.githubusercontent.com/101527083/222720889-33e810ac-1462-4856-b9fe-66c682e840a9.png)
+
+To create the program, the Pygame library was used. It is a library used to create games, but we used it to make a good and enjoyable look for users, as if it were a game. The program is very simple. It says the status of the cat, and then quits. If the user wants to try again, he should ring again.
+
+## User Interfaces 
+It is necessary for any machine-learning model to handle a familiar connection between the user and the code output. Therefore, the following image illustrates our funny user interface for cat owners:
+
+![image](https://user-images.githubusercontent.com/101527083/222721224-7bef6efd-8d27-496f-847f-d926c7722714.png)
+
+
+
+###
+
+
+
+
+
 
 
 
