@@ -1,6 +1,7 @@
 # Project Name: Animal Behaviors and a Pinch of Camera
 
 “The cat told me that she was sick,” a child said. Though, can cats talk? 
+
 Despite the countless development in artificial intelligence and computer vision world, this did not bring enough animal welfare to date. To illustrate, no communication tool between animals and humans determines the extent of their needs and diseases that we do not feel. Accordingly, we aim to build a model for animal behavior analysis in a few seconds — without resorting to a veterinarian and longtime detection. 
 
 `The present work selects cats’ behaviors due to the lack of biological investigations for the rest of the animals.` 
