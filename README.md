@@ -2,7 +2,7 @@
 
 “The cat told me that she was sick,” a child said. Though, can cats talk? 
 
-Despite the countless development in artificial intelligence and computer vision world, this did not bring enough animal welfare to date. To illustrate, no communication tool between animals and humans determines the extent of their needs and diseases that we do not feel. Accordingly, we aim to build a model for animal behavior analysis in a few seconds — without resorting to a veterinarian and longtime detection. 
+Despite the countless development in artificial intelligence and computer vision world, `this did not bring enough animal welfare to date`. To illustrate, no communication tool between animals and humans determines the extent of their needs and diseases that we do not feel. Accordingly, we aim to build a model for animal behavior analysis in a few seconds — without resorting to a veterinarian and longtime detection. 
 
 `The present work selects cats’ behaviors due to the lack of biological investigations for the rest of the animals.` 
 
@@ -148,6 +148,7 @@ To be more professional and adding more services like the following
 ## Future plans 
 * We are now building a modern architectures such as a transformers, LSTM, or attection model within `CNN` (convolutional neural network) to be more accurate for the cat body language 
 * We are searching for a trusted reference for the biological data of the rest of animals regarding their body languages and behaviors
+* Cat Voice analysis to get higher accuracy of cat behavior detection
 
 ## References 
 * Cats Protections Organization in UK (Cat body language - cat behaviour help & advice)
