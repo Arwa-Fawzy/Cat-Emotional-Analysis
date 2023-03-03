@@ -133,7 +133,7 @@ It is necessary for any machine-learning model to handle a familiar connection b
 
 ### Flutter application
 
-To be more professional and adding mor services like the following
+To be more professional and adding more services like the following
 * sign up to the application and get notifications for the cat behaviors
 * getting tips for regular grooming 
 * access the the user's (cat owner) location to inform him the nearest veterinary hospital to treat the cat if it is detected as sick
