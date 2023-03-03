@@ -69,7 +69,7 @@ It is  plotted by placing it on the x and y axis, and specific points are determ
 ### YOLO v5 
 First, we identified the parts of the cat's body that will be visible to determine the change in them and thus give the most accurate information about the cat's condition. Our dependence in the code was on 3 parts, the Eyes, the Tail, and the Mouth as shown in the figure: 
 
-#### The Eyes part
+### The Eyes part
 ##### It contains three parts:
 The first part is responsible for capturing the `eyes` and making an analysis of them, such as making a contour around them and calculating the ratio between white and black, and on this basis, we will determine whether the eye is wide open or not.
 
@@ -77,7 +77,7 @@ The first part is responsible for capturing the `eyes` and making an analysis of
 
 * The second part is responsible for compilation, especially in video situations, because every second something different will be captured, so every second it calculates the first part, then in the end it counts them and gives the most visible thing from the second function as a result. 
  
-#### The Mouth part
+### The Mouth part
 The mouth part: the code is simple, it tells us what appeared in the first function, according to the end of the Yolo need to catch it, the second function: it is also considered as a counter
 ##### It consists of two functions:
 * Mouth detection:
@@ -87,7 +87,7 @@ what the case was and so on.
 * Mouth behavior:
 This is considered a counter, so that in each frame it says what appeared and sees the most appeared thing and tells what expresses the condition of the cat
 
-#### The tail part:
+### The tail part:
 Divided into four parts:
 * The first part that is the detection of the tail: it is responsible for making a contour and defining the maximum from each point, right, left, above and below, and we see which is greater in length or width, while the length is greater, so this means that the tail is straight to the top, almost standing, so we depend on the point above and below, if the width It is the largest, this means that the tail is on the x axis, so we depend on the right and the left.
 * The gradient function which concerned with the slope. 
@@ -150,8 +150,8 @@ To be more professional and adding mor services like the following
 * We are searching for a trusted reference for the biological data of the rest of animals regarding their body languages and behaviors
 
 ## Credits
-This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy. 
-This project is supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology. 
+* This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy. 
+* This project is supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology. 
 
 ## Awards and certifications
 * The project recieved the `Third Prize` in OpenCV AI competition 2022 
