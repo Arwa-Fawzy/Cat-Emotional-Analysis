@@ -139,7 +139,7 @@ To be more professional and adding more services like the following
 * access the the user's (cat owner) location to inform him the nearest veterinary hospital to treat the cat if it is detected as sick
 
 
-![image](https://user-images.githubusercontent.com/101527083/227615365-bc5442e3-359b-48cf-a8e7-53c7a74d1baa.png)
+![image](https://user-images.githubusercontent.com/101527083/227616273-a7952b1d-7828-4086-9666-bddd01c9c8e2.png)
 
 
 ## Weakness points:
