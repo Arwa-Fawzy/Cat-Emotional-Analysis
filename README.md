@@ -1,4 +1,4 @@
-# Project Name: Animal Behaviors and a Pinch of Camera
+# Project Name: Animal Behavior Analysis Deduced from Their Body Language Signals
 
 “The cat told me that she was sick,” a child said. Though, can cats talk? 
 
@@ -184,6 +184,9 @@ To be more professional and adding more services like the following
 * The project recieved the `Third Prize` in OpenCV AI competition 2022 
 * The project participates in `Google Challenge Solution Global Contest 2023` (In progress)
 * The project will be submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt (In progress)
+ 
+ 
+`Note that we have developed some challenges after OpenCV contest. We added the tail feature and collected mor data to increase the accuracy. Additionally, we built a flutter application and collecting cat sound data to enhance the behavior detection result.`
 
 
 
