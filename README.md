@@ -13,6 +13,7 @@ As each cat has a different-sized landmark, the model compares the distances acc
 ## How to run the code:
 * Create a folder called DeepPet on your PC
 * Download the following drive link:
+* 
 https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
 * Move the files of the drive to the DeepPet folder
 * Download the python files of the github and move them to DeepPet folder 
@@ -21,7 +22,9 @@ https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
 * Enter the path of the image in your console (for example: D:/CS/Robotics-club/cat/without/cat.jpg)
 * see the output of the detection and see the generated images of labels detection 
 `Note that these generated images are deleted after seconds to save the storage` 
-* To run flutter, you can launch your emulator after downloading flutter folder and extract the zip folder 
+* To run flutter, you can launch your emulator after downloading flutter folder from this link:
+
+https://drive.google.com/drive/folders/10twHf86rzN8wlaeZGn_DNO-KQxyamx-W?usp=sharing
 `Note that everything is fine whether on the application or in the model except the connection between flutter application and the deep learning model itself 
 we still working on building the API service.` 
 
