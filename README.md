@@ -186,7 +186,7 @@ To be more professional and adding more services like the following
 * The project will be submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt (In progress)
  
  
-`Note that we have developed some challenges after OpenCV contest. We added the tail feature and collected mor data to increase the accuracy. Additionally, we built a flutter application and collecting cat sound data to enhance the behavior detection result.`
+`Note that we have developed some challenges after OpenCV contest. To illustrate, we added the tail feature and collected more data to increase the accuracy. Additionally, we built a flutter application and collecting cat sound data to enhance the behavior detection result.`
 
 
 
