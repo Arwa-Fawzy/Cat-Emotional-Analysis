@@ -10,6 +10,21 @@ In contrast, this will be a turning point for all animals’ behavior analysis b
 
 As each cat has a different-sized landmark, the model compares the distances according to a ratio with respect to the square of landmarks’ recognition. Eventually, there is a platform that is a user interface to scan the cat’s behavior through the camera or videos and prints simultaneously the detection result.
 
+## How to run the code:
+1. Create a folder called DeepPet on your PC
+2. Download the following drive link:
+https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
+3.Move the files of the drive to the DeepPet folder
+4.Download the python files of the github and move them to DeepPet folder 
+5.Run the main file and wait YOLO v5 to be downloaded 
+6.Choose your option wether you want to upload an image or video for test
+7. Enter the path of the image in your console (for example: D:/CS/Robotics-club/cat/without/cat.jpg)
+8. see the output of the detection and see the generated images of labels detection 
+Note that these generated images are deleted after seconds to save the storage 
+9.To run flutter, you can launch your emulator after downloading flutter folder 
+10. Note that everything is fine whether on the application or in the model except the connection between flutter application and the deep learning model itself 
+we still working on building the API service. 
+
 ## Aim
 The present work selects cats’ behaviors due to the lack of biological investigations for the rest of the animals. In contrast, this will be a turning point for all animals’ behavior analysis by OpenCV functions. As humans have built-in functions in OpenCV library for landmarks detection and more investigations regarding their non verbal communication like their movement of hands and facial expressions, this project is built to approach this aim.
 
