@@ -20,10 +20,10 @@ https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
 * Choose your option wether you want to upload an image or video for test
 * Enter the path of the image in your console (for example: D:/CS/Robotics-club/cat/without/cat.jpg)
 * see the output of the detection and see the generated images of labels detection 
-'Note that these generated images are deleted after seconds to save the storage\ 
+`Note that these generated images are deleted after seconds to save the storage` 
 * To run flutter, you can launch your emulator after downloading flutter folder 
-'Note that everything is fine whether on the application or in the model except the connection between flutter application and the deep learning model itself 
-we still working on building the API service.' 
+`Note that everything is fine whether on the application or in the model except the connection between flutter application and the deep learning model itself 
+we still working on building the API service.` 
 
 ## Aim
 The present work selects cats’ behaviors due to the lack of biological investigations for the rest of the animals. In contrast, this will be a turning point for all animals’ behavior analysis by OpenCV functions. As humans have built-in functions in OpenCV library for landmarks detection and more investigations regarding their non verbal communication like their movement of hands and facial expressions, this project is built to approach this aim.
