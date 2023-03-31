@@ -21,7 +21,7 @@ https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
 * Enter the path of the image in your console (for example: D:/CS/Robotics-club/cat/without/cat.jpg)
 * see the output of the detection and see the generated images of labels detection 
 `Note that these generated images are deleted after seconds to save the storage` 
-* To run flutter, you can launch your emulator after downloading flutter folder 
+* To run flutter, you can launch your emulator after downloading flutter folder and extract the zip folder 
 `Note that everything is fine whether on the application or in the model except the connection between flutter application and the deep learning model itself 
 we still working on building the API service.` 
 
