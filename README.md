@@ -1,4 +1,4 @@
-# Project Name: Animal Behavior Analysis Deduced from Their Body Language Signals
+#  DeepPet: Understanding Your Pet's Body Language
 
 “The cat told me that she was sick,” a child said. Though, can cats talk? 
 
