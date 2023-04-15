@@ -157,8 +157,7 @@ To be more professional and adding more services like the following
 ![image](https://user-images.githubusercontent.com/101527083/227616273-a7952b1d-7828-4086-9666-bddd01c9c8e2.png)
 
 
-![hhhh](https://user-images.githubusercontent.com/101527083/232242519-80a1463b-8754-463a-bd1c-818e140e8b66.jpg)
-
+![hhhh](https://user-images.githubusercontent.com/101527083/232243189-c4aff441-1db3-4632-a737-11d6952224d7.jpg)
 
 
 ## Weakness points:
