@@ -16,6 +16,8 @@ As each cat has a different-sized landmark, the model compares the distances acc
 
 https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
 
+* Run main file of python code in YOLOv5 folder firstly to download YOLOv5 model's layers into your computer
+
 * To run flutter app, download flutter folder from this link and move it to Your created DeepPet folder:
 
 https://drive.google.com/drive/folders/10twHf86rzN8wlaeZGn_DNO-KQxyamx-W?usp=sharing
