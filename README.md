@@ -157,6 +157,10 @@ To be more professional and adding more services like the following
 ![image](https://user-images.githubusercontent.com/101527083/227616273-a7952b1d-7828-4086-9666-bddd01c9c8e2.png)
 
 
+![hhhh](https://user-images.githubusercontent.com/101527083/232242519-80a1463b-8754-463a-bd1c-818e140e8b66.jpg)
+
+
+
 ## Weakness points:
 * The cat changes its behavior for each second and our detected cases should include more cases 
 * The goal of animal welfare is extented to more animals in farms that their behaviors can affect on the economics (cows, buffalo ...etc)
