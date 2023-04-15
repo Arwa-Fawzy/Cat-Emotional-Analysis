@@ -12,23 +12,18 @@ As each cat has a different-sized landmark, the model compares the distances acc
 
 ## How to run the code:
 * Create a folder called DeepPet on your PC
-* Download the following drive link:
+* Download the following drive link's folder into DeepPet folder:
 
 https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
-* Move the files of the drive to the DeepPet folder
-* Download the python files of the github and move them to DeepPet folder 
-* Run the main file and wait YOLO v5 to be downloaded 
-* Choose your option wether you want to upload an image or video for test
-* Enter the path of the image in your console (for example: D:/CS/Robotics-club/cat/without/cat.jpg)
-* see the output of the detection and see the generated images of labels detection 
-`Note that these generated images are deleted after seconds to save the storage` 
-* To run flutter, you can launch your emulator after downloading flutter folder from this link:
+
+* To run flutter app, download flutter folder from this link and move it to Your created DeepPet folder:
 
 https://drive.google.com/drive/folders/10twHf86rzN8wlaeZGn_DNO-KQxyamx-W?usp=sharing
 
+* Open VScode and open DeepPet floder in your workspace
+* Download the images in test folder attached with python code folder to pick cat images from gallery while detection 
+* You can launch your emulator and detect the cat images 
 
-`Note that everything is fine whether on the application or in the model except the connection between flutter application and the deep learning model itself 
-we still working on building the API service.` 
 
 ## Aim
 The present work selects cats’ behaviors due to the lack of biological investigations for the rest of the animals. In contrast, this will be a turning point for all animals’ behavior analysis by OpenCV functions. As humans have built-in functions in OpenCV library for landmarks detection and more investigations regarding their non verbal communication like their movement of hands and facial expressions, this project is built to approach this aim.
@@ -163,9 +158,8 @@ To be more professional and adding more services like the following
 
 
 ## Weakness points:
-* The cat changes its behavior for each second and our detected cases are inflexible 
-* The cat body language is more complicated than that 
-* The goal of animal welfare is extented tomore animals in farms that their behaviors can affect on the economics (cows, buffalo ...etc)
+* The cat changes its behavior for each second and our detected cases should include more cases 
+* The goal of animal welfare is extented to more animals in farms that their behaviors can affect on the economics (cows, buffalo ...etc)
 
 ## Future plans 
 * We are now building a modern architectures such as a transformers, LSTM, or attection model within `CNN` (convolutional neural network) to be more accurate for the cat body language 
@@ -182,13 +176,13 @@ To be more professional and adding more services like the following
 * Liu, C., Tao, Y., Liang, J., Li, K., & Chen, Y. (2018, December). Object detection based on YOLO network. In 2018 IEEE 4th Information Technology and Mechatronics Engineering Conference (ITOEC) (pp. 799-803). IEEE
 
 ## Credits
-* This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy, September 2022.
+* This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy, November 2022.
 * This project is supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology, December 2022.
 
 ## Awards and certifications
 * The project recieved the `Third Prize` in OpenCV AI competition 2022 
 * The project participates in `Google Challenge Solution Global Contest 2023` (In progress)
-* The project will be submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt (In progress)
+* The project was submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt and waiting for the result in next June! 
  
  
 `Note that we have developed some challenges after OpenCV contest. To illustrate, we added the tail feature and collected more data to increase the accuracy. Additionally, we built a flutter application and now we are collecting cat sound data to enhance the behavior detection result.`
