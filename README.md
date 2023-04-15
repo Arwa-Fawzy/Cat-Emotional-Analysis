@@ -21,7 +21,7 @@ https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
 https://drive.google.com/drive/folders/10twHf86rzN8wlaeZGn_DNO-KQxyamx-W?usp=sharing
 
 * Open VScode and open DeepPet floder in your workspace
-* Download the images in test folder attached with python code folder to pick cat images from gallery while detection 
+* Download the images in test folder attached with YOLOv5 folder to pick cat images from gallery while detection 
 * You can launch your emulator and detect the cat images 
 
 
