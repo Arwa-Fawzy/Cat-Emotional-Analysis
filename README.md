@@ -170,7 +170,7 @@ To be more professional and adding more services like the following
 
 ## Awards and certifications
 * The project recieved the `Third Prize` in OpenCV AI competition 2022 
-* The project participates in `Google Challenge Solution Global Contest 2023` (In progress)
+* The project participated in `Google Challenge Solution Global Contest 2023` 
 * The project was submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt and waiting for the result in next June! 
  
  
