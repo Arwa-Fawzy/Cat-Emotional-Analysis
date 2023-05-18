@@ -10,22 +10,6 @@ In contrast, this will be a turning point for all animals’ behavior analysis b
 
 As each cat has a different-sized landmark, the model compares the distances according to a ratio with respect to the square of landmarks’ recognition. Eventually, there is a platform that is a user interface to scan the cat’s behavior through the camera or videos and prints simultaneously the detection result.
 
-## How to run the code:
-* Create a folder called DeepPet on your PC
-* Download the following drive link's folder into DeepPet folder:
-
-https://drive.google.com/drive/u/1/folders/1f3HdyAt2XkZk5AmJMzNAw5jWVJVem-oS
-
-* Run main file of python code in YOLOv5 folder firstly to download YOLOv5 model's layers into your computer
-
-* To run flutter app, download flutter folder from this link and move it to Your created DeepPet folder:
-
-https://drive.google.com/drive/folders/10twHf86rzN8wlaeZGn_DNO-KQxyamx-W?usp=sharing
-
-* Open VScode and open DeepPet floder in your workspace
-* Download the images in test folder attached with YOLOv5 folder to pick cat images from gallery while detection 
-* You can launch your emulator and detect the cat images 
-
 
 ## Aim
 The present work selects cats’ behaviors due to the lack of biological investigations for the rest of the animals. In contrast, this will be a turning point for all animals’ behavior analysis by OpenCV functions. As humans have built-in functions in OpenCV library for landmarks detection and more investigations regarding their non verbal communication like their movement of hands and facial expressions, this project is built to approach this aim.
