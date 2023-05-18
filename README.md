@@ -165,8 +165,8 @@ To be more professional and adding more services like the following
 * Liu, C., Tao, Y., Liang, J., Li, K., & Chen, Y. (2018, December). Object detection based on YOLO network. In 2018 IEEE 4th Information Technology and Mechatronics Engineering Conference (ITOEC) (pp. 799-803). IEEE
 
 ## Credits
-* This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy, November 2022.
-* This project is supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology, December 2022.
+* This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy, December 2022.
+* This project was documented in a research paper and patent by two Engineering students: Ahmed Mohamed, Ahmed Anwar, and me  — a computer science student — Arwa Fawzy, supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology, February 2022.
 
 ## Awards and certifications
 * The project recieved the `Third Prize` in OpenCV AI competition 2022 
