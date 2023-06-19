@@ -171,10 +171,9 @@ To be more professional and adding more services like the following
 ## Awards and certifications
 * The project recieved the `Third Prize` in OpenCV AI competition 2022 
 * The project participated in `Google Challenge Solution Global Contest 2023` 
-* The project was submitted to `(IMSA) Intelligent Methods, Systems, and Applications Conference` in Cairo, Egypt and waiting for the result in next June! 
+* The project was submitted to `International Conference on Artificial Intelligence Science and Applications in Industry and Society (CAISAIS) IEEE` 
  
- 
-`Note that we have developed some challenges after OpenCV contest. To illustrate, we added the tail feature and collected more data to increase the accuracy. Additionally, we built a flutter application and now we are collecting cat sound data to enhance the behavior detection result.`
+
 
 
 
