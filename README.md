@@ -42,7 +42,7 @@ The first step in the implementation was to identify the cat or cats in the pict
 
 ![image](https://user-images.githubusercontent.com/101527083/222717150-48bc4002-f5df-4187-ab92-9dce330ad277.png)
 
-Then we imported yolo v5 model. This model is very fast in detection, as it can detect the image in about 0.007 part of a second, and in videos, it can detect at rate of 140 frames per second. After that, an update is made for the results by placing the box around the image and labeling it. 
+Then we imported yolo v8 model. This model is very fast in detection, as it can detect the image in about 0.007 part of a second, and in videos, it can detect at rate of 140 frames per second. After that, an update is made for the results by placing the box around the image and labeling it. 
 
 ![image](https://user-images.githubusercontent.com/101527083/222717272-aed11d70-fc44-43d0-82c2-517f39eb17b2.png)
 
@@ -67,7 +67,7 @@ It is  plotted by placing it on the x and y axis, and specific points are determ
 
 ![image](https://user-images.githubusercontent.com/101527083/222717847-945ef053-8530-40da-bd8b-f9e580f74bc9.png) 
 
-### YOLO v5 
+### YOLO v8 
 First, we identified the parts of the cat's body that will be visible to determine the change in them and thus give the most accurate information about the cat's condition. Our dependence in the code was on 3 parts, the Eyes, the Tail, and the Mouth as shown in the figure: 
 
 ### The Eyes part
@@ -115,7 +115,7 @@ The previous code is what we use for the detection process at the end. Inside th
 
 In the case of analyzing the videos: it is considered the same image, but the counter is used in the end, because every second the cat can make a different movement. It is determined what appeared the most and we depend on it, so that if there is an error, it is controlled.
 
-For the model training we used YOLO v5, and this is a pretrained model, which consists of a lot of layers, but we only change the weight according to the data that we enter for it, and through this model we were able to get the results we want (determining the cat’s condition depending on its body language). While training the model we got some graphs. Some of them as shown in figure (4). These graphs represent loss graphs or the error on the training dataset.
+For the model training we used YOLO v8, and this is a pretrained model, which consists of a lot of layers, but we only change the weight according to the data that we enter for it, and through this model we were able to get the results we want (determining the cat’s condition depending on its body language). While training the model we got some graphs. Some of them as shown in figure (4). These graphs represent loss graphs or the error on the training dataset.
 
 ![image](https://user-images.githubusercontent.com/101527083/222720889-33e810ac-1462-4856-b9fe-66c682e840a9.png)
 
@@ -169,9 +169,9 @@ To be more professional and adding more services like the following
 * This project was documented in a research paper and patent by two Engineering students: Ahmed Mohamed, Ahmed Anwar, and me  — a computer science student — Arwa Fawzy, supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology, September 2023.
 
 ## Awards and certifications
-* The project recieved the `Third Prize` in OpenCV AI competition 2022 
-* The project participated in `Google Challenge Solution Global Contest 2023` 
-* The project was submitted to `International Japan-African Conference on Electronics, Communication and Computations IEEE` 
+* The project recieved the `Third Prize` in OpenCV AI competition January 2023 
+* The project participated in `Google Challenge Solution Global Contest March 2023` 
+* The project was submitted to `International Japan-African Conference on Electronics, Communication and Computations IEEE` October 2023. 
  
 
 
