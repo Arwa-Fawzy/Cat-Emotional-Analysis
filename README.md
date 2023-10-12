@@ -1,4 +1,4 @@
-#  DeepPet: Understanding Your Pet's Body Language
+#  DeepCat: A Deep Learning Aproach to Understand Your Cat's Body Language
 
 “The cat told me that she was sick,” a child said. Though, can cats talk? 
 
@@ -166,12 +166,12 @@ To be more professional and adding more services like the following
 
 ## Credits
 * This project was created by three Engineering students: Ahmed Mohamed, Ahmed Anwar, Heba Yasser and me  — a computer science student — Arwa Fawzy, December 2022.
-* This project was documented in a research paper and patent by two Engineering students: Ahmed Mohamed, Ahmed Anwar, and me  — a computer science student — Arwa Fawzy, supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology, February 2022.
+* This project was documented in a research paper and patent by two Engineering students: Ahmed Mohamed, Ahmed Anwar, and me  — a computer science student — Arwa Fawzy, supervised by Dr. Haitham El-Husseiny and Dr. Ahmed Bayoumy in Egypt Japan University for Science and Technology, September 2023.
 
 ## Awards and certifications
 * The project recieved the `Third Prize` in OpenCV AI competition 2022 
 * The project participated in `Google Challenge Solution Global Contest 2023` 
-* The project was submitted to `International Conference on Artificial Intelligence Science and Applications in Industry and Society (CAISAIS) IEEE` 
+* The project was submitted to `International Japan-African Conference on Electronics, Communication and Computations IEEE` 
  
 
 
