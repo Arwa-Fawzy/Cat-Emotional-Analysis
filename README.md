@@ -167,7 +167,8 @@ To be more professional and adding more services like the following
 
 ## Awards and certifications
 * The project recieved the `Third Prize` in OpenCV AI competition January 2023 
-* The project participated in `Google Challenge Solution Global Contest March 2023` 
+* The project participated in `Google Challenge Solution Global Contest March 2023`
+* The project has been presented on 2023 11th International Japan-Africa Conference on Electronics, Communications, and Computations (JAC-ECC)
 * The project has been published on IEEE Xplore: https://ieeexplore.ieee.org/document/10479630. 
  
 
